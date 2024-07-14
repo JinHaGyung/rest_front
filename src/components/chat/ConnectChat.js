@@ -369,7 +369,7 @@ export default function ConnectChatRoom({ roomid, userid, reloadRoom, isInvite, 
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <th>부서:</th>
-                                                                                            <td>{/* <td> {memberchatList.deptid.deptnm}</td> */}</td>
+                                                                                            <td>{/* <td> {memberchatList.deptid?.deptnm}</td> */}</td>
                                                                                         </tr>
                                                                                     </tbody>
                                                                                 </table>
